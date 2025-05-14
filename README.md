@@ -18,6 +18,19 @@ A sleek, responsive calculator built with HTML, CSS, and JavaScript featuring mo
 - **Responsive Design** - Works on all device sizes
 - **Font Awesome Icons** - Visual indicators for operations
 
+## 🌐 Live Demo
+
+Experience the calculator in your browser:
+
+[![Live Demo](https://img.shields.io/badge/-Live%20Demo%20%E2%86%92-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://dms-menula.github.io/Modern-Calculator-Design-With-Frontend-Languages/)
+
+> **Note**: This is primarily a **UI/UX design demonstration**. While fully functional for basic operations, the project focuses on:
+> - Modern visual design principles
+> - Interactive animations and micro-interactions
+> - Responsive layout techniques
+>
+> It's not intended to replace advanced/scientific calculator functionality.
+
 ## 🛠️ Technologies Used
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
