@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator-glass">
+            <div class="calculator-header">
+                <h1><i class="fas fa-calculator"></i>ModCalc</h1>
+                <div class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+            
+            <div class="display">
+                <div class="previous-operand" id="previous-operand"></div>
+                <div class="current-operand" id="current-operand">0</div>
+            </div>
+            
+            <div class="buttons-grid">
+                <button class="btn operator" data-operation="ac"><i class="fas fa-broom"></i></button>
+                <button class="btn operator" data-operation="del"><i class="fas fa-backspace"></i></button>
+                <button class="btn operator" data-operation="%"><i class="fas fa-percentage"></i></button>
+                <button class="btn operator highlight" data-operation="/"><i class="fas fa-divide"></i></button>
+                
+                <button class="btn number" data-number="7">7</button>
+                <button class="btn number" data-number="8">8</button>
+                <button class="btn number" data-number="9">9</button>
+                <button class="btn operator highlight" data-operation="*"><i class="fas fa-times"></i></button>
+                
+                <button class="btn number" data-number="4">4</button>
+                <button class="btn number" data-number="5">5</button>
+                <button class="btn number" data-number="6">6</button>
+                <button class="btn operator highlight" data-operation="-"><i class="fas fa-minus"></i></button>
+                
+                <button class="btn number" data-number="1">1</button>
+                <button class="btn number" data-number="2">2</button>
+                <button class="btn number" data-number="3">3</button>
+                <button class="btn operator highlight" data-operation="+"><i class="fas fa-plus"></i></button>
+                
+                <button class="btn number span-2" data-number="0">0</button>
+                <button class="btn number" data-number=".">.</button>
+                <button class="btn operator highlight equals" data-operation="="><i class="fas fa-equals"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="particles-container" id="particles-js"></div>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
